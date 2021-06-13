@@ -3,4 +3,4 @@
 <p>SELECT</p>
 <img src="./img/SELECT.png" width="500">
 <p>DISTINCT</p>
-<img src="./DISTINCT.png" width="500">
+<img src="./img/DISTINCT.png" width="500">
