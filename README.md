@@ -7,4 +7,4 @@
 <p>WHERE </p>
 <img src="./img/WHERE_Exemplos.png" width="500">
 <img src="./img/WHERE1.png" width="500">
-<img src="./img/WHERE2.png" width="500">
+<!-- <img src="./img/WHERE2.png" width="500"> -->
