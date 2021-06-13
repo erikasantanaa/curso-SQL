@@ -1,3 +1,6 @@
 <h3> Exercícios SQL Server </h3>
 
-<img src="./img/exerc01SELECT.png" width="600">
+<p>SELECT</p>
+<img src="./img/SELECT.png" width="500">
+<p>DISTINCT</p>
+<img src="./DISTINCT.png" width="500">
