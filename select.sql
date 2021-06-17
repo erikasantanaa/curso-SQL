@@ -20,3 +20,10 @@ OPERADORES LÓGICOS
 */
 
 SELECT conluna1, coluna2, coluna_n FROM tabela WHERE condicao;
+
+/*COUNT (Contar)
+
+
+*/
+
+SELECT COUNT(DISTINCT coluna1) FROM Tabela
