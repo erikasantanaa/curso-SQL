@@ -9,3 +9,5 @@
 <img src="./img/WHERE1.png" width="500">
 <img src="./img/WHERE2.png" width="500">
 <img src="./img/WHERE3.png" width="500">
+<p>COUNT</p>
+<img src="./img/COUNT_Exemplos.png" width="500">
