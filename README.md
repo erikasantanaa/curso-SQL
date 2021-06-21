@@ -18,5 +18,5 @@
 <img src="./img/TOP.png" width="500">
 <p>ORDER BY</p>
 <img src="./img/ORDERBY.png" width="500">
-<img src="./img/ORDERBY1.png" width="500">
 <img src="./img/ORDERBY2.png" width="500">
+<img src="./img/ORDERBY3.png" width="500">
