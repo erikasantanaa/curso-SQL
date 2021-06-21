@@ -10,4 +10,13 @@
 <img src="./img/WHERE2.png" width="500">
 <img src="./img/WHERE3.png" width="500">
 <p>COUNT</p>
-<img src="./img/COUNT_Exemplos.png" width="500">
+<img src="./img/COUNT1.png" width="500">
+<img src="./img/COUNT2.png" width="500">
+<img src="./img/COUNT3.png" width="500">
+<img src="./img/DISTINCT.png" width="500">
+<p>TOP</p>
+<img src="./img/TOP.png" width="500">
+<p>ORDER BY</p>
+<img src="./img/ORDERBY.png" width="500">
+<img src="./img/ORDERBY1.png" width="500">
+<img src="./img/ORDERBY2.png" width="500">

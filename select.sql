@@ -22,8 +22,21 @@ OPERADORES LÓGICOS
 SELECT conluna1, coluna2, coluna_n FROM tabela WHERE condicao;
 
 /*COUNT (Contar)
+Retorna o número de linhas
+DISTINCT: Retorna um numero de linhas de um campo especifico.
+*/
+SELECT COUNT(*) FROM TABELA
+SELECT COUNT(coluna1) FROM TABELA 
+SELECT COUNT(DISTINCT coluna1) FROM Tabela
 
+/*TOP:
+Filtrar , limitar uma quantidade de dados de um SELECT.*/
 
+SELECT TOP 10 * FROM tabela
+
+/* ORDER BY
+Permite que ordene os resultados por alguma coluna em ordem
+crescente ou descrecente.
 */
 
-SELECT COUNT(DISTINCT coluna1) FROM Tabela
+SELECT coluna1, coluna2 FROM tabela ORDER BY coluna1 asc/desc
