@@ -44,3 +44,22 @@ valor passado na lista de valores.*/
 Valor IN (valor1, valor2)
 --SUB SELECT ou  SUB QUERY
 Valor IN (SELECT Valor FROM nomeDaTabela)
+
+
+/*LIKE
+Usado para encontrar, por exemplo uma pessoa no Banco de Dados que não se conhece 
+todo o nome.*/
+
+-- O % no final quer dizer que não se sabe o final da palavra.
+select * from coluna where tabela like 'ovi%'
+-- O % no inicio quer dizer que não se sabe o inicio da palrava
+select * from coluna where tabela like '%to'
+--O % no inicio e final da palavra, serve para encontrar a palavra com as letras do meio
+select * from coluna where tabela like '%essa%'
+--O _ no final se limita apenas a 1 caracter
+select * from coluna where tabela like '%ro_'
+
+
+/*
+
+*/
