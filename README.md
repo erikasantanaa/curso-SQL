@@ -20,3 +20,8 @@
 <img src="./img/ORDERBY.png" width="500">
 <img src="./img/ORDERBY2.png" width="500">
 <img src="./img/ORDERBY3.png" width="500">
+<p>BETWEEN</p>
+<img src="./img/BETWEEN1.png" width="500">
+<img src="./img/BETWEEN2.png" width="500">
+<p>IN</p>
+<img src="./img/IN1.png" width="500">
