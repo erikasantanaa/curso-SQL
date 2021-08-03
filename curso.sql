@@ -60,6 +60,23 @@ select * from coluna where tabela like '%essa%'
 select * from coluna where tabela like '%ro_'
 
 
-/*
+/* MIN MAX SUN (totalGeral) AVG(media) 
+Função de agregação: basicamente agregam ou combinam dados de uma tabela em 
+um resultado.*/
 
+select top 10 sum(coluna) AS "soma"
+from tabela;
+
+/* GROUP BY 
+Divide o resultado da sua pesquisa em grupos.
+Para cada grupo você pode aplicar uma função de agregação, por exemplo:
+
+Contar o número de itens naquele grupo: */
+
+select coluna1, funçãoAgregação(coluna2) 
+from nomeTabela group by coluna1;
+
+/* APELIDO:
+AS "  "
 */
+
