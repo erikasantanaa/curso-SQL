@@ -76,7 +76,18 @@ Contar o número de itens naquele grupo: */
 select coluna1, funçãoAgregação(coluna2) 
 from nomeTabela group by coluna1;
 
-/* APELIDO:
-AS "  "
-*/
+/* HAVING
+O Having é basicamente muito usado em junção com o group by para filtrar resultados de um 
+agrupamento
+
+De uma forma mais simples de entender , ele é como basicamente um WHERE para dados agrupados
+
+QUAL A DIFERENÇa:
+é que o group by é aplicado depois que os dados já foram agrupados. Enquanto o where é 
+aplicado antes dos dados serem agrupados */
+
+select coluna1, funcaoAgregacao(coluna2)
+from nomeTabela
+group by coluna1
+having coducao;
 
