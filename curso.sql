@@ -91,3 +91,22 @@ from nomeTabela
 group by coluna1
 having coducao;
 
+
+/*AS
+Serve para renomear, dá apelido as colunas.
+Sem aspas: caso seja somente um nome : as exemplo;
+Com aspas: Caso seja mais de um nome: as "segundo exemplo".
+
+Exemplo de renomear uma coluna*/
+select top 10 avg(ListePrice) as "Preço Médio"
+from Production.Product
+
+/* INNER JOIN
+
+Existem 3 tipos gerais de JOINS: INNER JOIN, OUTER JOIN e SELF-JOIN.
+Ele junta informações de duas tabelas*/
+--|2| Bruno | Rua Norte | São Paulo |
+select C.ClienteId, C.Nome, E.Rua, E.Cidade
+from Cliente C
+INNER JOIN Endereco E ON E.EnderecoId = C.EnderecoId
+
