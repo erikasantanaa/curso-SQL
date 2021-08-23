@@ -110,3 +110,42 @@ select C.ClienteId, C.Nome, E.Rua, E.Cidade
 from Cliente C
 INNER JOIN Endereco E ON E.EnderecoId = C.EnderecoId
 
+--Tipos de JOIN: Pesquisar diagramas SQL JOINS.
+/*1) INNER JOIN
+retorna apenas os resultados que correspondem (existem) tanto na tabela A 
+como na tabela B. */
+select * from  TabelaA
+inner join TabelaB 
+on TabelaA.nome = TabelaB.nome
+
+/*2) FULL OUTER JOIN
+retorna um conjunto de todos registros correspondentes da TabelaA e TabelaB
+quando são iguais. E além disso se não houver valores correspondentes,
+ele simplesmente irá prenches esse lado com "null".*/
+select * from TabelaA 
+full outer join TabelaB 
+on TabelaA.nome = TabelaB.nome
+
+/*3) LEFT OUTER JOIN
+retorna um conjunto de todos os registros da TabelaA, e alem disso, os registros 
+correspondentes (quando disponíveis) na TabelaB. Se não houver registros 
+correspondentes ele simplismente vai preencher com "null".*/
+select * from TabelaA
+left Join  TabelaB
+on TabelaA.nome = TabelaB.nome
+
+/*UNION
+Combina doi ou mais resultados de um select em um resultado apenas.
+Ele remove as dados duplicados.
+Para não remover se Usa UNION ALL*/
+
+select coluna1, coluna2
+from tabela1
+union 
+select coluna1, coluna2
+from tabela2
+
+/*DATEPART
+https://docs.microsoft.com/pt-br/sql/t-sql/functions/datepart-transact-sql?view=sql-server-ver15
+
+*/
