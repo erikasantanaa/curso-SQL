@@ -16,7 +16,7 @@ CREATE TABLE livro (
   edicao INT,
   autor text,
   resumo text,
-  preco double,
+  preco double(18,2),
   categoria varchar(20),
   idioma varchar(20),
   isbn INT

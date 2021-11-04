@@ -78,3 +78,29 @@ select *,
 	else 'Pessoa Indefinida'
      end + convert(varchar, GETDATE(), 103)
 from clientes
+
+
+--Comando Join - Filtrar informações da tabela.
+/*
+inner join 
+left join
+right join
+*/
+
+ select * 
+ from clientes cli
+ inner join pedido ped 
+ on cli.codigo = ped.codigoCliente
+ where ped.codigoCliente = > 10
+
+
+  select * 
+ from clientes cli
+ left join pedido ped 
+ on cli.codigo = ped.codigoCliente
+
+   select * 
+ from clientes cli
+ right join pedido ped 
+ on cli.codigo = ped.codigoCliente
+
